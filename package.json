@@ -1,0 +1,38 @@
+{
+  "name": "reacting",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "bun --bun ./node_modules/@angular/cli/bin/ng.js",
+    "start": "bun run ng serve",
+    "build": "bun run ng build",
+    "watch": "bun run ng build --watch --configuration development",
+    "test": "bun run ng test"
+  },
+  "private": true,
+  "packageManager": "bun@1.4.4",
+  "dependencies": {
+    "@angular/common": "^22.2.0",
+    "@angular/compiler": "^22.2.0",
+    "@angular/core": "^22.2.0",
+    "@angular/elements": "^22.2.0",
+    "@angular/forms": "^22.2.0",
+    "@angular/platform-browser": "^22.2.0",
+    "@angular/router": "^22.2.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router": "^8.5.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^22.2.4",
+    "@angular/cli": "^22.2.4",
+    "@angular/compiler-cli": "^22.2.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "jsdom": "^30.0.0",
+    "prettier": "^3.8.1",
+    "typescript": "~6.0.2",
+    "vitest": "^5.0.0"
+  }
+}
