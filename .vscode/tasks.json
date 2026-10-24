@@ -3,9 +3,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "bun: start",
+      "label": "dev",
       "type": "shell",
-      "command": "bun run start",
+      "command": "bun start",
       "isBackground": true,
       "problemMatcher": {
         "owner": "typescript",
@@ -13,12 +13,20 @@
         "background": {
           "activeOnStart": true,
           "beginsPattern": {
-            "regexp": "Changes detected"
+            "regexp": "Changes detected|Building\\.\\.\\."
           },
           "endsPattern": {
-            "regexp": "bundle generation (complete|failed)"
+            "regexp": "Local:\\s+http://localhost:4200/|bundle generation failed"
           }
         }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
       }
     },
     {

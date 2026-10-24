@@ -16,7 +16,8 @@
     "jsx": "react-jsx",
     "paths": {
       "@reacting/angular": ["./src/reacting/angular/index.ts"],
-      "@reacting/react": ["./src/reacting/react/index.ts"]
+      "@reacting/react": ["./src/reacting/react/index.ts"],
+      "@reacting/app": ["./src/app/index.ts"]
     }
   },
   "angularCompilerOptions": {

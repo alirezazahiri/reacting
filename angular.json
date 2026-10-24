@@ -44,7 +44,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "browser": "src/main.ts",
+            "browser": "src/main.tsx",
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {

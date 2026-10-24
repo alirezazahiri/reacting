@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f1ea;
+  color: #1d1a16;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #0c4a4e;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #0c4a4e;
+  outline-offset: 2px;
+}
+
+.shell {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.brand {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+.page h1,
+.counter h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.75rem;
+}
+
+.count {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+button,
+.text-link {
+  display: inline-block;
+  min-height: 2.75rem;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #1d1a16;
+  border-radius: 0.4rem;
+  background: #fffdf8;
+  color: #1d1a16;
+  font: inherit;
+  text-decoration: none;
+}
+
+button:hover,
+.text-link:hover {
+  background: #e7f0ef;
+}
